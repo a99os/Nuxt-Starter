@@ -12,6 +12,18 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-  modules: ["@nuxtjs/i18n"],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/i18n", "@pinia/nuxt"],
+  googleFonts: {
+    families: {
+      Inter: true,
+      Lexend: true,
+      Montserrat: true,
+      Poppins: true,
+      Petrona: true,
+      Raleway: true,
+      "Libre Baskerville": true,
+      "Open Sans": true,
+      "Playfair Display": true,
+    },
+  },
 });
